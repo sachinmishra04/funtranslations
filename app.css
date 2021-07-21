@@ -32,6 +32,7 @@ html,p,h1,body{
     margin-top:1.75rem;
     color:black;
     font-family: 'Orbitron', sans-serif;
+    text-align: center;
    
 }
 h1{
@@ -90,7 +91,9 @@ button{
 }
 
 @media only screen and (min-width:600px) {
-  textarea{
+   
+  
+    textarea{
       width:35vw;
       font-size: 1.25rem;
   }
@@ -99,4 +102,23 @@ button{
       font-size: 1.25rem;
       line-height: 130%;
   }
+} 
+
+@media only screen and (min-width:300px){
+    
+    .translator-app{
+        padding: 2rem;
+    }
+    
+    .translator{
+        padding: 2rem;
+    }
+    textarea{
+        width: 70vw;
+        height:20vh;
+    }
+
+    .outputTxt{
+        width:70vw;
+    }
 }
