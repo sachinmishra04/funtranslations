@@ -2,6 +2,12 @@ const translateBtn = document.querySelector(".translate-btn");
 const textInput = document.querySelector(".textInput");
 const outputTxt = document.querySelector(".outputTxt");
 
+function changeTranslatedStyle{
+  
+}
+
+
+
 translateBtn.addEventListener("click", () => {
   console.log(textInput.value);
   outputTxt.innerText = "";
