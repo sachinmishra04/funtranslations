@@ -58,15 +58,20 @@ textarea{
 
 .outputTxt{
     width:50vw;
-    font-style: italic;
-    color: rgb(122, 121, 121);
+    
     overflow-y:scroll;
     height:18vh;
     padding:0.8rem;
     background: rgb(240, 240, 240);
+    font-family: "DM Sans",sans-serif;
+    border-radius:0.4rem;
+}
+
+span{
+    font-style: italic;
+    color: rgb(122, 121, 121);
     font-size: 1.2rem;
     line-height: 130%;
-    border-radius:0.4rem;
 }
 
 .TranslatedOutputTxt{
